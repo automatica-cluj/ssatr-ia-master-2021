@@ -17,7 +17,7 @@ public class Robot {
         this.pozitia = 0;
     }
     
-    //metode
+    //metode = functie
     void deplasareStanga(){
         pozitia--;
         System.out.println(nume+" Merg la stanga. Noua pozitie "+pozitia);
