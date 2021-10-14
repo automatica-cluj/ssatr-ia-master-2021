@@ -9,6 +9,10 @@ public class TestRobot {
         Robot r1 = new Robot(1, "ABC");
         Robot r2 = new Robot(0, "XYZ");
         
+//        String msg1 ="Un mesaj";
+//        String msg2 = new String("Alt mesaj");
+        
+        
         for(int i=0;i<2;i++)
             r1.deplasareStanga();
         
