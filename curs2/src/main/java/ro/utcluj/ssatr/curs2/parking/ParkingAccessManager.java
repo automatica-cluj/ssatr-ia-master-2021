@@ -10,6 +10,8 @@ public class ParkingAccessManager {
     //java collections sunt alternative la array - in Curs 3 
     private Car[] cars = new Car[10]; // [null,null,null,....]
     
+    
+    
     /**
      * Car added in parking lot.
      * 

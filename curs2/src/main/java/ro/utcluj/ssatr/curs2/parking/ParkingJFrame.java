@@ -10,7 +10,7 @@ package ro.utcluj.ssatr.curs2.parking;
  */
 public class ParkingJFrame extends javax.swing.JFrame {
 
-    ParkingAccessManager pam = new ParkingAccessManager();
+    ParkingAccessManager2 pam = new ParkingAccessManager2();
     
     /**
      * Creates new form ParkingJFrame
