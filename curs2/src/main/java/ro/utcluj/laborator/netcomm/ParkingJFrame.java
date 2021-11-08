@@ -18,7 +18,16 @@ public class ParkingJFrame extends javax.swing.JFrame {
      * Creates new form ParkingJFrame
      */
     public ParkingJFrame() {
+        //ServerNet net = new ServerNet(pam);        
         initComponents();
+        //net.waitForClientConnections();
+    }
+    
+    public ParkingJFrame(ParkingAccessManager2 pam) {
+        //ServerNet net = new ServerNet(pam);     
+        this.pam = pam;
+        initComponents();
+        //net.waitForClientConnections();
     }
 
     /**
