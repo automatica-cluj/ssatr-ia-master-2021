@@ -6,6 +6,8 @@ public class ParkingAccessManager2 {
    
     //colectie care poate sotca un numar nelimita de masini 
     //daca dorim sa stocam elemente unice putem folosi HashSet
+    
+   //ParkingDbAcess dbList;  
    private ArrayList<Car> list = new ArrayList<>(); 
    private ArrayList<Car> history = new ArrayList<>(); 
    
